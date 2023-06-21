@@ -16,6 +16,10 @@ header {
   color: white;
   padding: 20px;
 }
+.container {
+  width: 1180px;
+  margin: auto;
+}
 .logo {
   width: 100px;
 }
@@ -26,7 +30,7 @@ div > a {
   font-weight: bold;
   margin-right: 10px;
 }
-i {
+header i {
   margin-right: 15px;
 }
 
@@ -56,6 +60,12 @@ i {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.flex-column {
+  flex-direction: column;
+}
+.justify-end {
+  justify-content: end;
+}
 
 /* CLASSI CARD */
 
@@ -81,13 +91,25 @@ i {
   background-color: red;
   position: absolute;
   bottom: 60px;
+  color: white;
+  padding: 5px 10px;
 }
 
 .sostenibilità {
   background-color: green;
   position: absolute;
   bottom: 60px;
-  left: 40px;
+  left: 65px;
+  color: white;
+  padding: 5px 10px;
+}
+.sostenibilità-2 {
+  background-color: green;
+  position: absolute;
+  bottom: 60px;
+  left: 0 px;
+  color: white;
+  padding: 5px 10px;
 }
 .cuore {
   background-color: rgb(255, 239, 239);
@@ -96,4 +118,20 @@ i {
   right: 0px;
   font-size: 2rem;
   padding: 10px;
+}
+
+/* CASSI FOOTER */
+footer {
+  background-color: black;
+  color: white;
+  min-height: 100px;
+}
+.container-footer {
+  width: 1180px;
+  margin: auto;
+  min-height: 100px;
+}
+
+.footer-logo {
+  margin-top: 10px;
 }
