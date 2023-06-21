@@ -7,14 +7,19 @@
 img {
   width: 100%;
 }
-
+main {
+  margin-top: 66px;
+}
 /* CLASSI HEADER */
 header {
   width: 100%;
   background-color: #ff6900;
-  /* position: fixed; */
+  position: fixed;
+  z-index: 10;
+  right: 0;
   color: white;
   padding: 20px;
+  top: 0;
 }
 .container {
   width: 1180px;
@@ -65,6 +70,43 @@ header i {
 }
 .justify-end {
   justify-content: end;
+}
+
+/* CLASSI EFFETTI CARD */
+
+.first-pic {
+  position: relative;
+}
+.second-pic {
+  position: absolute;
+}
+.card-media:hover .second-pic {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.card-media:hover .sconto {
+  bottom: 60px;
+  left: 0;
+  z-index: 1;
+}
+.card-media:hover .sostenibilità {
+  bottom: 60px;
+  left: 65px;
+  z-index: 1;
+}
+.card-media:hover .cuore {
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.card-media:hover .sostenibilità-2 {
+  bottom: 60px;
+  left: 0px;
+  z-index: 1;
+}
+.cuore:hover {
+  color: red;
 }
 
 /* CLASSI CARD */
