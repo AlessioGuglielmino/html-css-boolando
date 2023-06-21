@@ -64,6 +64,7 @@ i {
 }
 
 .card-media {
+  position: relative;
 }
 .discount {
   color: red;
@@ -75,4 +76,24 @@ i {
 
 .brand {
   color: gray;
+}
+.sconto {
+  background-color: red;
+  position: absolute;
+  bottom: 60px;
+}
+
+.sostenibilità {
+  background-color: green;
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+}
+.cuore {
+  background-color: rgb(255, 239, 239);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 2rem;
+  padding: 10px;
 }
