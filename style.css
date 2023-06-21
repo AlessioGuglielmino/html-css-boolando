@@ -1,0 +1,78 @@
+/* CLASSI START */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+
+/* CLASSI HEADER */
+header {
+  width: 100%;
+  background-color: #ff6900;
+  /* position: fixed; */
+  color: white;
+  padding: 20px;
+}
+.logo {
+  width: 100px;
+}
+div > a {
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+i {
+  margin-right: 15px;
+}
+
+/* CLASSI CONTENITORE */
+.container {
+  width: 1180px;
+  margin: auto;
+}
+/* CLASSI FLEX */
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* CLASSI CARD */
+
+.card {
+  margin: 50px 15px;
+}
+
+.card-media {
+}
+.discount {
+  color: red;
+  font-weight: bolder;
+}
+.original-price {
+  text-decoration: line-through;
+}
+
+.brand {
+  color: gray;
+}
